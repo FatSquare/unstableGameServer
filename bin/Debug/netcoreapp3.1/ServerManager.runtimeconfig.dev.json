@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Squar3\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Squar3\\.nuget\\packages"
+    ]
+  }
+}
