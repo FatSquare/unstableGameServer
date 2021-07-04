@@ -35,20 +35,32 @@ namespace ServerManager
             TcpClient _client = tcpListener.EndAcceptTcpClient(_result);
             tcpListener.BeginAcceptTcpClient(new AsyncCallback(TCPConnectCallBack), null);
 
-            Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine($"{_client.Client.RemoteEndPoint} is trying to connect!");
+            if (Program.isDebugging)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"{_client.Client.RemoteEndPoint} is trying to connect!");
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("> ");
+            }
 
+            //check if there is a place left in the server
             for (int i = 1; i <= MaxPlayers; i++)
             {
                 if (clients[i].tcp.socket == null)
                 {
+                    //connect the user;
                     clients[i].tcp.Connect(_client);
                     return;
                 }
             }
 
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"{_client.Client.RemoteEndPoint} failed to connect: Server is full!");
+            if (Program.isDebugging)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"{_client.Client.RemoteEndPoint} failed to connect: Server is full!");
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.Write("> ");
+            }
         }
         static void IntializeServerData()
         {

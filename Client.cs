@@ -35,8 +35,13 @@ namespace ServerManager
                 }
                 catch (Exception ex)
                 {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine($"Error occured while sending data to {id}: {ex}");
+                    if (Program.isDebugging)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine($"Error occured while sending data to {id}: {ex}");
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.Write("> ");
+                    }
                 }
 
             }
@@ -58,7 +63,7 @@ namespace ServerManager
 
                 receiveBuffer = new byte[dataBufferSize];
                 stream.BeginRead(receiveBuffer, 0, dataBufferSize, ReceiveCallback, null);
-
+                //We will call welcome function each time our user logged in
                 ServerSend.Welcome(id, "Welcome to " + Program.serverName);
             }
 

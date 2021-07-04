@@ -4,6 +4,7 @@ namespace ServerManager
 {
     public class ServerSend
     {
+        //Welcome function will be called each time a player is connected
         public static void Welcome(int playerId, string _msg)
         {
             using (Packet packet = new Packet((int)ServerPackets.welcome))

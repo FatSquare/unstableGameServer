@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Squar3\\Desktop\\ServerManager\\ServerManager.csproj": {}
+    "C:\\Users\\Squar3\\Desktop\\ChaseGameServer\\ServerManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Squar3\\Desktop\\ServerManager\\ServerManager.csproj": {
+    "C:\\Users\\Squar3\\Desktop\\ChaseGameServer\\ServerManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Squar3\\Desktop\\ServerManager\\ServerManager.csproj",
+        "projectUniqueName": "C:\\Users\\Squar3\\Desktop\\ChaseGameServer\\ServerManager.csproj",
         "projectName": "ServerManager",
-        "projectPath": "C:\\Users\\Squar3\\Desktop\\ServerManager\\ServerManager.csproj",
+        "projectPath": "C:\\Users\\Squar3\\Desktop\\ChaseGameServer\\ServerManager.csproj",
         "packagesPath": "C:\\Users\\Squar3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Squar3\\Desktop\\ServerManager\\obj\\",
+        "outputPath": "C:\\Users\\Squar3\\Desktop\\ChaseGameServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Squar3\\AppData\\Roaming\\NuGet\\NuGet.Config"

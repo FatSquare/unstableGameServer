@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GJkhHtDrF4LK8jDzAUcgVYcdQKM0/JOtJiMswmX5KHK1UvJBX3ppw9J2E/kqyFv8hTgrRVSyhqG/r2UKJXimRQ==",
+  "dgSpecHash": "HATtos+lh+mgnLZIgkVrmqzR6CmtDisK9SCsV92Vfqi92MEJ9gCKqnnc9PCscecUbBK6QrnxR9D5qc9N44wCWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Squar3\\Desktop\\ServerManager\\ServerManager.csproj",
+  "projectFilePath": "C:\\Users\\Squar3\\Desktop\\ChaseGameServer\\ServerManager.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

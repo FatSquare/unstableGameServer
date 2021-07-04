@@ -24,3 +24,16 @@ C:\Users\Squar3\Desktop\ServerManager\obj\Debug\netcoreapp3.1\ServerManager.cspr
 C:\Users\Squar3\Desktop\ServerManager\obj\Debug\netcoreapp3.1\ServerManager.dll
 C:\Users\Squar3\Desktop\ServerManager\obj\Debug\netcoreapp3.1\ServerManager.pdb
 C:\Users\Squar3\Desktop\ServerManager\obj\Debug\netcoreapp3.1\ServerManager.genruntimeconfig.cache
+C:\Users\Squar3\Desktop\ChaseGameServer\bin\Debug\netcoreapp3.1\ServerManager.exe
+C:\Users\Squar3\Desktop\ChaseGameServer\bin\Debug\netcoreapp3.1\ServerManager.deps.json
+C:\Users\Squar3\Desktop\ChaseGameServer\bin\Debug\netcoreapp3.1\ServerManager.runtimeconfig.json
+C:\Users\Squar3\Desktop\ChaseGameServer\bin\Debug\netcoreapp3.1\ServerManager.runtimeconfig.dev.json
+C:\Users\Squar3\Desktop\ChaseGameServer\bin\Debug\netcoreapp3.1\ServerManager.dll
+C:\Users\Squar3\Desktop\ChaseGameServer\bin\Debug\netcoreapp3.1\ServerManager.pdb
+C:\Users\Squar3\Desktop\ChaseGameServer\obj\Debug\netcoreapp3.1\ServerManager.csprojAssemblyReference.cache
+C:\Users\Squar3\Desktop\ChaseGameServer\obj\Debug\netcoreapp3.1\ServerManager.AssemblyInfoInputs.cache
+C:\Users\Squar3\Desktop\ChaseGameServer\obj\Debug\netcoreapp3.1\ServerManager.AssemblyInfo.cs
+C:\Users\Squar3\Desktop\ChaseGameServer\obj\Debug\netcoreapp3.1\ServerManager.csproj.CoreCompileInputs.cache
+C:\Users\Squar3\Desktop\ChaseGameServer\obj\Debug\netcoreapp3.1\ServerManager.dll
+C:\Users\Squar3\Desktop\ChaseGameServer\obj\Debug\netcoreapp3.1\ServerManager.pdb
+C:\Users\Squar3\Desktop\ChaseGameServer\obj\Debug\netcoreapp3.1\ServerManager.genruntimeconfig.cache
