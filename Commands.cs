@@ -4,7 +4,7 @@ namespace ServerManager
 {
     public class Commands
     {
-        public static string bannedIpsPath = "C:/Users/Squar3/Desktop/ChaseGameServer/list/banned-ips.txt";
+        public static string bannedIpsPath = AppDomain.CurrentDomain.BaseDirectory + "..\\..\\..\\" + "/list/banned-ips.txt";
         public static void Help(string[] fullCommand)
         {
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
